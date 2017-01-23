@@ -1,5 +1,5 @@
 # XView
-下雨，飘雪，红包雨，碰撞球，自定义View
+下雨，飘雪，红包雨，碰撞球，自定义View</br>
 代码解析(Code parsing)：http://www.cnblogs.com/linguanh/p/6342099.html
 
 
