@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- android:state_pressed 设置点击时候的属性 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#d9d9d9" />
+            <!-- 描边 -->
+            <stroke
+                android:dashGap="0dp"
+                android:dashWidth="5dp"
+                android:width="0dp"
+                android:color="#d9d9d9" />
+            <!-- 圆角 -->
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+
+            <!--  <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" /> -->
+        </shape>
+    </item>
+    <!-- android:state_pressed 设置获取了焦点时候的属性，也就是onTouch 的 move -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#d9d9d9" />
+
+            <stroke android:width="0dp" android:color="#d9d9d9" />
+
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+
+            <!--  <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" /> -->
+        </shape>
+    </item>
+
+    <!-- android:state_pressed 设置没被点击或者触摸时候属性 -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#ffffff" />
+
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+
+            <!-- <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" /> -->
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <!-- <solid android:color="#0a9c89" /> -->
+            <solid android:color="#ffffff" />
+
+            <!-- <stroke android:width="3dp" android:color="#000000" /> -->
+
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+
+            <!-- <padding android:bottom="2dp" android:left="2dp" android:right="2dp" android:top="2dp" /> -->
+        </shape>
+    </item>
+
+</selector>

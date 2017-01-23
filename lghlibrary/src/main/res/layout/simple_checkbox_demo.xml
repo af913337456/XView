@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="19dp"
+        android:text="性别修改"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/first_title"
+            android:text="程序猿"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#373737"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/first_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/second_title"
+            android:text="程序媛"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#373737"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/second_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="right|bottom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel"
+            android:background="@null"
+            android:text="取消"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:text="确定"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+</LinearLayout>

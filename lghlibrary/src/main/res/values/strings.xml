@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LghDialog</string>
+
+
+    <string name="loading_txt">加载中&#8230;</string>
+    <string name="error_no_data">没有数据！</string>
+</resources>

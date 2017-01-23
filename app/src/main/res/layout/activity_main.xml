@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="am.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="自定义View"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:src="@drawable/menu"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+    <am.lghcustomview.rain.RainView
+        android:id="@+id/rain"
+        android:visibility="visible"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <am.lghcustomview.snow.SnowView
+        android:id="@+id/snow"
+        android:visibility="gone"
+        android:background="#73aaf2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <am.lghcustomview.money.MoneyView
+        android:id="@+id/money"
+        android:visibility="gone"
+        android:background="#f2df73"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <am.lghcustomview.ball.BallView
+        android:id="@+id/ball"
+        android:visibility="gone"
+        android:background="#8c8c8c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
