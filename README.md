@@ -6,10 +6,10 @@
 # 效果展示
 Video http://pan.baidu.com/s/1miyPn76 </br>
 其中，球具备和边界的碰撞检测和每个球之间的碰撞</br></br>
-<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232010785-141851348.jpg" width = "400" height = "750" alt="下雨"/>
-<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232045348-1505543503.jpg" width = "400" height = "750" alt="下雨"/>
-<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232112754-817148735.jpg" width = "400" height = "750" alt="下雨"/>
-<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232134566-1969545427.jpg" width = "400" height = "750" alt="下雨"/>
+<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232010785-141851348.jpg" width = "400" height = "700" alt="下雨"/>
+<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232045348-1505543503.jpg" width = "400" height = "700" alt="下雨"/>
+<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232112754-817148735.jpg" width = "400" height = "700" alt="下雨"/>
+<img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232134566-1969545427.jpg" width = "400" height = "700" alt="下雨"/>
 
 # MainActivity
 ```javasetContentView(R.layout.activity_main);
