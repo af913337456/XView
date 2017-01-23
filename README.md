@@ -1,5 +1,7 @@
 # XView
 下雨，飘雪，红包雨，碰撞球，自定义View
+代码解析(Code parsing)：http://www.cnblogs.com/linguanh/p/6342099.html
+
 
 # 效果展示
 <img src="http://images2015.cnblogs.com/blog/690927/201701/690927-20170122232010785-141851348.jpg" width = "400" height = "800" alt="下雨"/>
