@@ -132,18 +132,23 @@ public class BallItem extends BaseItem {
     private void boundChech(
             BallItem b1
     ) {
+        /** 加减5解决撞墙误差 */
         if (b1.getCenter().x + b1.getRadius() +b1.getVx() >= width - 1) {
+            b1.getCenter().x -= 5;
             b1.setVx(-1 * b1.getVx());
         }
 
         if (b1.getCenter().x + b1.getVx() - b1.getRadius() <= 1) {
+            b1.getCenter().x += 5;
             b1.setVx(-1 * b1.getVx());
         }
 
         if (b1.getCenter().y + b1.getRadius() + b1.getVy() >= height - 1) {
+            b1.getCenter().y -= 5;
             b1.setVy(-1 * b1.getVy());
         }
         if (b1.getCenter().y + b1.getVy() - b1.getRadius() <= 1) {
+            b1.getCenter().y += 5;
             b1.setVy(-1 * b1.getVy());
         }
     }
