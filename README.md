@@ -2,6 +2,13 @@
 下雨，飘雪，红包雨，碰撞球，自定义View</br>
 代码解析(Code parsing)：http://www.cnblogs.com/linguanh/p/6342099.html
 
+<pre>
+
+  Created by 林冠宏（指尖下的幽灵）.
+ 
+  Blog : http://www.cnblogs.com/linguanh/;
+  
+</pre>
 
 # 效果展示
 Video http://pan.baidu.com/s/1miyPn76 </br>
