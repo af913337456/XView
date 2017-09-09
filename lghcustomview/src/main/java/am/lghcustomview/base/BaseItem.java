@@ -19,6 +19,10 @@ public abstract class BaseItem {
     protected int width,height;      /** 景内宽高 */
     protected Resources resources;
 
+    public BaseItem(){
+
+    }
+
     public BaseItem(int width,int height,Resources resources){
         this.width  = width;
         this.height = height;

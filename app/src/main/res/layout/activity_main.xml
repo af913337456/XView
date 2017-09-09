@@ -36,9 +36,44 @@
 
     </RelativeLayout>
 
+    <LinearLayout
+        android:id="@+id/pContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <am.myapplication.ParticleView
+            android:id="@+id/p"
+            android:background="#313131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/zoom"
+            android:text="缩放与不缩放"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/rect"
+            android:text="矩形与圆形"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/changeTxt"
+            android:text="改变文字"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
     <am.lghcustomview.rain.RainView
         android:id="@+id/rain"
-        android:visibility="visible"
+        android:visibility="gone"
         android:background="#000000"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
