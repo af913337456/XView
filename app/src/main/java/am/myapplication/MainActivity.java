@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeText(final String s){
+        // 粒子变幻隧道
         particleView.setConfigAndRefreshView(
                 new ParticleView.Config()
                         .setCanvasWidth(

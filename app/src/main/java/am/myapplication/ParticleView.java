@@ -12,7 +12,6 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.widget.Toast;
 
-import java.nio.IntBuffer;
 import java.util.Random;
 
 import am.lghcustomview.base.BaseItem;
@@ -245,24 +244,8 @@ public class ParticleView extends SurfaceShowView<ParticleView.Particle> {
                 yStep
         );
 
-        /** java 方法，抛弃，效率低，想要的 私聊我 */
         //javaMethod(bitmap,bitmap.getHeight(),bitmap.getWidth(),xStep,yStep,callBack);
         callBack.finish();
-    }
-
-    private void javaMethod(Bitmap bitmap,int Height,int width,int xStep,int yStep,ParticleInitCallBack callBack){
-        int index = 0;
-        IntBuffer buf = IntBuffer.allocate(bitmap.getWidth()*bitmap.getHeight());
-        bitmap.copyPixelsToBuffer(buf);
-        int[] arr = buf.array();
-        for(int i=0;i<Height;i+=yStep){     // 高
-            for(int j=0;j<width;j+=xStep){  // 宽
-                if(arr[i*width+j]!=0){
-                    callBack.setParticle(index,j,i);
-                    index++;
-                }
-            }
-        }
     }
 
     public interface ParticleCallBack{
