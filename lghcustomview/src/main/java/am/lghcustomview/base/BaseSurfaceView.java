@@ -9,7 +9,7 @@ import android.view.SurfaceView;
 /**
  * 作者：林冠宏
  * <p>
- * author: LinGuanHong,lzq is my dear wife.
+ * author: LinGuanHong.
  * <p>
  * My GitHub : https://github.com/af913337456/
  * <p>
